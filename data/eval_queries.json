@@ -1,0 +1,32 @@
+[
+  {
+    "category": "conflict_resolution",
+    "query": "What is the maximum operating pressure for the P-200?",
+    "expected_docs": ["DOC-01", "DOC-02"]
+  },
+  {
+    "category": "keyword_lookup",
+    "query": "What should I do if I see error code E-208?",
+    "expected_docs": ["DOC-07"]
+  },
+  {
+    "category": "semantic_match",
+    "query": "How often do I need to calibrate the temperature sensors?",
+    "expected_docs": ["DOC-10"]
+  },
+  {
+    "category": "exact_id_match",
+    "query": "When should the BRG-4410 bearing be replaced?",
+    "expected_docs": ["DOC-09"]
+  },
+  {
+    "category": "abstention_trigger",
+    "query": "What is the maximum speed of the conveyor belt X-500?",
+    "expected_docs": []
+  },
+  {
+    "category": "semantic_match",
+    "query": "What is the vibration velocity limit for the F-30 fan?",
+    "expected_docs": ["DOC-05", "DOC-06"]
+  }
+]
